@@ -6,4 +6,4 @@
 #### textblobを用いたSentiment Scoreの算出
 - [sentiment_score_jp.py](./sentiment_score_jp.py)
 #### janomeを用いたテキストカラムのトークン化
-[tokenization_japanese.py](./tokenization_japanese.py)
+- [tokenization_japanese.py](./tokenization_japanese.py)
