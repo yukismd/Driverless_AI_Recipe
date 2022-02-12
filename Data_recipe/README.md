@@ -7,3 +7,4 @@
 - [sentiment_score_jp.py](./sentiment_score_jp.py)
 #### janomeを用いたテキストカラムのトークン化
 - [tokenization_japanese.py](./tokenization_japanese.py)
+- ユーザー定義辞書の利用（[辞書の例](../test/tokenize_dict/dict_test.csv)） [tokenization_japanese_dict.py](./tokenization_japanese_dict.py)
