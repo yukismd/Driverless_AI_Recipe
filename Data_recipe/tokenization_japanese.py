@@ -22,7 +22,7 @@ class TokenizeJapanese(CustomData):
         # exit gracefully if method is called as a data upload rather than data modify
         if X is None:
             return []
-        # Tokenize the chinese text
+        # Tokenize the Japanese text
         from janome.tokenizer import Tokenizer
         t = Tokenizer(wakati=True)
         X = dt.Frame(X).to_pandas()
@@ -30,5 +30,6 @@ class TokenizeJapanese(CustomData):
         if len(cols_to_tokenize) == 0:
             cols_to_tokenize.append(X.columns[0])
         for col in cols_to_tokenize:
+            X[col] = X[col].fillna("")  # replacing nan to str
             X[col] = X[col].apply(lambda x: " ".join([tkn for tkn in t.tokenize(x)]))
         return dt.Frame(X)
