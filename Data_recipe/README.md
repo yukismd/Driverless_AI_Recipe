@@ -8,4 +8,4 @@
 #### janomeを用いたテキストカラムのトークン化
 - [tokenization_japanese.py](./tokenization_japanese.py)
 - ユーザー定義辞書の利用（[辞書の例](../test/tokenize_dict/dict_test.csv)） [tokenization_japanese_dict.py](./tokenization_japanese_dict.py)
-- ストップワードの指定[tokenization_japanese_stopwords.py](./tokenization_japanese_stopwords.py)
+- ストップワードの指定 [tokenization_japanese_stopwords.py](./tokenization_japanese_stopwords.py)
