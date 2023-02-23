@@ -5,4 +5,4 @@
 ****
 
 #### 事前学習BERTモデルを特徴量抽出器として利用
-- https://huggingface.co/cl-tohoku/bert-base-japaneseの利用例 [bert-base-japanese.py](./bert-base-japanese.py)
+- [cl-tohoku/bert-base-japanese](https://huggingface.co/cl-tohoku/bert-base-japanese)の利用例 [bert-base-japanese.py](./bert-base-japanese.py)
